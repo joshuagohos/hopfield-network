@@ -1,4 +1,4 @@
-# Hopfield Network
+# Hopfield Network and Stimuli Repetition
 Unpublished work by Joshua Oon Soo Goh [\[1\]](#1) in fulfillment of Psych 591 Neural Network Modeling course conducted in Spring 2007 at the Dept. of Psychology, University of Illinois at Urbana-Champaign, IL, USA, instructed by John Hummel. This work extends the Hopfield Network as implemented by John Hopfield [\[2\]](#2) by evaluating its performance with respect to stimuli repetition.
 
 **Bibliography**<br>
