@@ -1,0 +1,657 @@
+PART 1B: Test Walsh-trained network with distorted training patterns
+
+Simulation report for 6 distortion probabilities (rows) of 4 training patterns (col) across 20 runs:
+Mean hamming distance
+"0"	0	0	0	0
+"0.1"	1.9	0.5	1.3	1.1
+"0.2"	4.6	2.9	2.5	2.1
+"0.3"	2.7	3.2	5.2	5.2
+"0.4"	6.3	6.4	6.9	5.8
+"0.5"	7	7.3	9	7.5
+
+Standard deviations of hamming distance
+"0"	0	0	0	0
+"0.1"	3.12	1.79	2.68	2.24
+"0.2"	4.2	3.22	3.05	2.98
+"0.3"	3.63	3.6	4.26	3.73
+"0.4"	3.92	4.2	4.33	3.26
+"0.5"	2.65	2.75	3.84	2.61
+
+Mean number of iterations to settle
+"0"	30	30	30	30
+"0.1"	45.3	42.9	44.2	47.6
+"0.2"	52.6	55.5	53.8	50.6
+"0.3"	58.1	58.5	58.1	57.9
+"0.4"	57.4	64.2	69.6	59.2
+"0.5"	59	55	72.8	58.9
+
+Standard deviations of number of iterations to settle
+"0"	0	0	0	0
+"0.1"	14.92	15.86	14	19.71
+"0.2"	17.46	15.9	15.47	15.67
+"0.3"	15.49	16.05	17.48	13.19
+"0.4"	10.22	19.23	16.24	18.08
+"0.5"	17.25	14.09	22.1	12.99
+
+Number of failures to settle
+"0"	0	0	0	0
+"0.1"	0	0	0	0
+"0.2"	0	0	0	0
+"0.3"	0	0	0	0
+"0.4"	0	0	0	0
+"0.5"	0	0	0	0
+
+PART 2B: Test Repetition-trained network with distorted training patterns
+
+Simulation report for 6 distortion probabilities (rows) of 3 training patterns (col) across 20 runs:
+Mean hamming distance
+"0"	0	0	7.5
+"0.1"	0.1	2.5	7.7
+"0.2"	0.1	2	8
+"0.3"	0.8	6.7	8
+"0.4"	3	8	7.8
+"0.5"	7	7.6	8.1
+
+Standard deviations of hamming distance
+"0"	0	0	0.6
+"0.1"	0.22	3.71	0.57
+"0.2"	0.31	3.53	0.22
+"0.3"	1.8	2.9	0.22
+"0.4"	5.34	0.46	0.49
+"0.5"	7.54	1.9	0.39
+
+Mean number of iterations to settle
+"0"	30	30	67.6
+"0.1"	41.1	45.4	60.8
+"0.2"	50.9	53	65.6
+"0.3"	61.5	65.3	64.3
+"0.4"	60	65.2	65
+"0.5"	55.1	64.3	60.4
+
+Standard deviations of number of iterations to settle
+"0"	0	0	16.86
+"0.1"	8.62	17.06	11.75
+"0.2"	12.97	13.56	11.93
+"0.3"	14.44	12.96	11.79
+"0.4"	14.93	13.97	16.98
+"0.5"	11.66	14.19	12.26
+
+Number of failures to settle
+"0"	0	0	0
+"0.1"	0	0	0
+"0.2"	0	0	0
+"0.3"	0	0	0
+"0.4"	0	0	0
+"0.5"	0	0	0
+
+PART 3Ba: Test Random-trained network with distorted test patterns
+
+Simulation report for 6 distortion probabilities (rows) of 3 training patterns (col) across 20 runs:
+Mean hamming distance
+"0"	0	0	0
+"0.1"	1	0.2	0.2
+"0.2"	4.2	2	1.7
+"0.3"	5	1.2	3.2
+"0.4"	7.7	3.1	3.9
+"0.5"	8.7	4.6	7.5
+
+Standard deviations of hamming distance
+"0"	0	0	0
+"0.1"	2.1	0.91	0.72
+"0.2"	3.63	2.8	2.87
+"0.3"	3.32	2.59	2.79
+"0.4"	3.41	3.56	3.41
+"0.5"	3.39	4.55	4.88
+
+Mean number of iterations to settle
+"0"	30	30	30
+"0.1"	44.6	40.5	45.8
+"0.2"	58	56.4	57.1
+"0.3"	54.6	62.6	57.1
+"0.4"	63.1	66.5	58.4
+"0.5"	65	64.5	61.4
+
+Standard deviations of number of iterations to settle
+"0"	0	0	0
+"0.1"	14.55	10.04	11.95
+"0.2"	17.4	16.27	19.16
+"0.3"	9.34	15.59	17.21
+"0.4"	19.83	9.3	15.23
+"0.5"	18.38	12.7	16.72
+
+Number of failures to settle
+"0"	0	0	0
+"0.1"	0	0	0
+"0.2"	0	0	0
+"0.3"	0	0	0
+"0.4"	0	0	0
+"0.5"	0	0	0
+
+PART 3Bb: Test network additionally trained on 1 random pattern(s) with distorted training patterns
+
+Simulation report for 1 distortion probabilities (rows) of 4 training patterns (col) across 20 runs:
+Mean hamming distance
+"0.2"	4.9	1.7	2.5	2.1
+
+Standard deviations of hamming distance
+"0.2"	3.4	3.08	2.54	3.12
+
+Mean number of iterations to settle
+"0.2"	74.3	54.2	58.6	51.5
+
+Standard deviations of number of iterations to settle
+"0.2"	32.02	14.34	14.29	15.91
+
+Number of failures to settle
+"0.2"	0	0	0	0
+
+PART 3Bb: Test network additionally trained on 2 random pattern(s) with distorted training patterns
+
+Simulation report for 1 distortion probabilities (rows) of 5 training patterns (col) across 20 runs:
+Mean hamming distance
+"0.2"	4	2	3.5	5.6	2.1
+
+Standard deviations of hamming distance
+"0.2"	3.67	2.14	2.46	1.98	2.58
+
+Mean number of iterations to settle
+"0.2"	56.5	56.5	66.5	81	57.1
+
+Standard deviations of number of iterations to settle
+"0.2"	19.3	16.64	22.88	23.03	18.9
+
+Number of failures to settle
+"0.2"	0	0	0	0	0
+
+PART 3Bb: Test network additionally trained on 3 random pattern(s) with distorted training patterns
+
+Simulation report for 1 distortion probabilities (rows) of 6 training patterns (col) across 20 runs:
+Mean hamming distance
+"0.2"	5.1	3.2	2	7	3.2	1.4
+
+Standard deviations of hamming distance
+"0.2"	0.79	2.79	0.51	2.21	3.65	1.18
+
+Mean number of iterations to settle
+"0.2"	62.6	58.7	61.7	68	56.7	59.1
+
+Standard deviations of number of iterations to settle
+"0.2"	9.13	25.45	20.69	17.65	25.67	19.15
+
+Number of failures to settle
+"0.2"	0	0	0	0	0	0
+
+PART 3Bb: Test network additionally trained on 4 random pattern(s) with distorted training patterns
+
+Simulation report for 1 distortion probabilities (rows) of 7 training patterns (col) across 20 runs:
+Mean hamming distance
+"0.2"	5.3	3.5	1.8	6.5	4.3	1.1	6.8
+
+Standard deviations of hamming distance
+"0.2"	1.66	2.28	0.55	2.46	3.67	0.37	2.6
+
+Mean number of iterations to settle
+"0.2"	65.2	65.6	60.4	72.9	64.7	56.6	72.9
+
+Standard deviations of number of iterations to settle
+"0.2"	19.24	26	12.36	20.32	25.95	19.09	25.78
+
+Number of failures to settle
+"0.2"	0	0	0	0	0	0	0
+
+PART 4B: Test network with base pattern
+
+Simulation report for base pattern across 20 runs:
+Mean hamming distance
+"1"	0.8
+
+Standard deviations of hamming distance
+"1"	0.37
+
+Mean number of iterations to settle
+"1"	40.4
+
+Standard deviations of number of iterations to settle
+"1"	7.99
+
+Number of failures to settle
+"1"	0
+
+PART 1B: Test Walsh-trained network with distorted training patterns
+
+Simulation report for 6 distortion probabilities (rows) of 4 training patterns (col) across 20 runs:
+Mean hamming distance
+"0"	0	0	0	0
+"0.1"	2	0.9	1.2	1.1
+"0.2"	2.8	3.1	3	3
+"0.3"	5.8	4.9	4.7	5.9
+"0.4"	6.4	5.8	6.5	6.3
+"0.5"	9.9	9.1	8.4	7.8
+
+Standard deviations of hamming distance
+"0"	0	0	0	0
+"0.1"	3.28	2.17	2.59	2.16
+"0.2"	3.19	3.42	3.61	3.61
+"0.3"	3.63	3.46	4.26	4.23
+"0.4"	3.84	2.83	3.89	3.59
+"0.5"	4.32	3.34	4.04	5.08
+
+Mean number of iterations to settle
+"0"	30	30	30	30
+"0.1"	45.2	45.1	52.5	46.5
+"0.2"	49.2	52	58.2	61.8
+"0.3"	62.6	63.1	56.7	65.5
+"0.4"	69.2	57.6	62.8	60.7
+"0.5"	56.9	63.3	64.4	62.8
+
+Standard deviations of number of iterations to settle
+"0"	0	0	0	0
+"0.1"	15.57	17.75	21.54	12.11
+"0.2"	12.44	18.48	21.7	15.1
+"0.3"	17.63	23.07	11.08	15.95
+"0.4"	15.33	15.43	19.13	16.55
+"0.5"	13.14	16.09	15.65	14.1
+
+Number of failures to settle
+"0"	0	0	0	0
+"0.1"	0	0	0	0
+"0.2"	0	0	0	0
+"0.3"	0	0	0	0
+"0.4"	0	0	0	0
+"0.5"	0	0	0	0
+
+PART 2B: Test Repetition-trained network with distorted training patterns
+
+Simulation report for 6 distortion probabilities (rows) of 3 training patterns (col) across 20 runs:
+Mean hamming distance
+"0"	0	0	7.7
+"0.1"	0.2	1.3	7.8
+"0.2"	0.1	5.2	8
+"0.3"	0.2	4.9	7.8
+"0.4"	4.1	6.8	8
+"0.5"	8.2	7.4	7.9
+
+Standard deviations of hamming distance
+"0"	0	0	0.59
+"0.1"	0.41	2.77	0.37
+"0.2"	0.31	3.79	0.22
+"0.3"	0.44	3.81	0.67
+"0.4"	6.56	3.75	0.51
+"0.5"	7.19	3.15	0.45
+
+Mean number of iterations to settle
+"0"	30	30	65.9
+"0.1"	40.5	43.8	66.9
+"0.2"	50.2	55	64.2
+"0.3"	55.4	60.1	60.7
+"0.4"	62.2	60.1	68.3
+"0.5"	57.6	58.2	59
+
+Standard deviations of number of iterations to settle
+"0"	0	0	15.27
+"0.1"	12.41	15.93	12.22
+"0.2"	18.07	14.77	12.27
+"0.3"	14.34	18.51	15.34
+"0.4"	15.25	12.18	18.45
+"0.5"	12.99	11.13	11.56
+
+Number of failures to settle
+"0"	0	0	0
+"0.1"	0	0	0
+"0.2"	0	0	0
+"0.3"	0	0	0
+"0.4"	0	0	0
+"0.5"	0	0	0
+
+PART 3Ba: Test Random-trained network with distorted test patterns
+
+Simulation report for 6 distortion probabilities (rows) of 3 training patterns (col) across 20 runs:
+Mean hamming distance
+"0"	0	0	0
+"0.1"	1.4	0.8	0.6
+"0.2"	1.6	2.2	1.9
+"0.3"	2.5	4.8	3.4
+"0.4"	6	6.2	4.3
+"0.5"	5.5	10.7	7.2
+
+Standard deviations of hamming distance
+"0"	0	0	0
+"0.1"	1.57	1.51	1.61
+"0.2"	1.53	3.58	3.2
+"0.3"	2.52	4.41	4.25
+"0.4"	3.46	5	4.5
+"0.5"	3.72	4.69	4.36
+
+Mean number of iterations to settle
+"0"	30	30	30
+"0.1"	50.9	41.2	45.9
+"0.2"	53.3	57.3	49.2
+"0.3"	64.8	57.2	61.1
+"0.4"	65.5	56.7	64.3
+"0.5"	71.7	60.5	61.8
+
+Standard deviations of number of iterations to settle
+"0"	0	0	0
+"0.1"	19.08	13.14	13.84
+"0.2"	16.83	18.5	12.63
+"0.3"	21.05	19.59	15.5
+"0.4"	16.28	16.53	18.91
+"0.5"	16.88	17.11	13.21
+
+Number of failures to settle
+"0"	0	0	0
+"0.1"	0	0	0
+"0.2"	0	0	0
+"0.3"	0	0	0
+"0.4"	0	0	0
+"0.5"	0	0	0
+
+PART 3Bb: Test network additionally trained on 1 random pattern(s) with distorted training patterns
+
+Simulation report for 1 distortion probabilities (rows) of 4 training patterns (col) across 20 runs:
+Mean hamming distance
+"0.2"	3.6	3	2.3	3.8
+
+Standard deviations of hamming distance
+"0.2"	1.14	3.91	3.5	1.47
+
+Mean number of iterations to settle
+"0.2"	68.1	55.4	53.5	70.9
+
+Standard deviations of number of iterations to settle
+"0.2"	20.98	13.05	16.19	18.6
+
+Number of failures to settle
+"0.2"	0	0	0	0
+
+PART 3Bb: Test network additionally trained on 2 random pattern(s) with distorted training patterns
+
+Simulation report for 1 distortion probabilities (rows) of 5 training patterns (col) across 20 runs:
+Mean hamming distance
+"0.2"	5	2.1	3.7	4.8	3.3
+
+Standard deviations of hamming distance
+"0.2"	3.64	2.22	4.26	2.12	3.29
+
+Mean number of iterations to settle
+"0.2"	79.2	57.6	61.2	69.2	56.9
+
+Standard deviations of number of iterations to settle
+"0.2"	26.86	16.91	18.65	21.26	18.99
+
+Number of failures to settle
+"0.2"	0	0	0	0	0
+
+PART 3Bb: Test network additionally trained on 3 random pattern(s) with distorted training patterns
+
+Simulation report for 1 distortion probabilities (rows) of 6 training patterns (col) across 20 runs:
+Mean hamming distance
+"0.2"	4	4.3	5.2	4	4.1	5
+
+Standard deviations of hamming distance
+"0.2"	1.08	5.02	2.05	1.36	2.65	2.39
+
+Mean number of iterations to settle
+"0.2"	68	69.7	73.9	67.7	67.5	66.5
+
+Standard deviations of number of iterations to settle
+"0.2"	18.31	19.48	25.87	12.76	21.65	21.64
+
+Number of failures to settle
+"0.2"	0	0	0	0	0	0
+
+PART 3Bb: Test network additionally trained on 4 random pattern(s) with distorted training patterns
+
+Simulation report for 1 distortion probabilities (rows) of 7 training patterns (col) across 20 runs:
+Mean hamming distance
+"0.2"	4.1	4.5	5.2	3.9	4.7	4.5	5.5
+
+Standard deviations of hamming distance
+"0.2"	0.79	3.38	3.5	3.17	2.74	2.31	2.26
+
+Mean number of iterations to settle
+"0.2"	61.3	68.8	63.9	65.2	59.3	64.5	67
+
+Standard deviations of number of iterations to settle
+"0.2"	12.72	25.05	15.65	19.77	15.56	25.85	17.62
+
+Number of failures to settle
+"0.2"	0	0	0	0	0	0	0
+
+PART 4B: Test network with base pattern
+
+Simulation report for base pattern across 20 runs:
+Mean hamming distance
+"1"	0
+
+Standard deviations of hamming distance
+"1"	0
+
+Mean number of iterations to settle
+"1"	30
+
+Standard deviations of number of iterations to settle
+"1"	0
+
+Number of failures to settle
+"1"	0
+
+PART 1B: Test Walsh-trained network with distorted training patterns
+
+Simulation report for 6 distortion probabilities (rows) of 4 training patterns (col) across 20 runs:
+Mean hamming distance
+"0"	0	0	0	0
+"0.1"	1.8	1	2.1	1.9
+"0.2"	3	2.9	3.5	3.9
+"0.3"	3.8	6.5	3.9	3.9
+"0.4"	7.1	6.5	6	6.6
+"0.5"	9.3	8.2	7.2	7.5
+
+Standard deviations of hamming distance
+"0"	0	0	0	0
+"0.1"	2.88	1.81	3.25	2.79
+"0.2"	3.67	3.48	3.36	3.51
+"0.3"	3.96	3.19	4.08	3.42
+"0.4"	3.93	2.86	3.62	4.98
+"0.5"	3.08	3.29	4	3.28
+
+Mean number of iterations to settle
+"0"	30	30	30	30
+"0.1"	54.8	40.8	50.3	49
+"0.2"	62.5	57.5	51.5	54
+"0.3"	56.6	58.6	51.5	50.2
+"0.4"	66.2	61.5	63	60.2
+"0.5"	65.6	62.6	65.7	59.5
+
+Standard deviations of number of iterations to settle
+"0"	0	0	0	0
+"0.1"	14.25	13.18	18.87	20
+"0.2"	27.51	17.43	14.95	16.79
+"0.3"	16.92	15.05	15.46	14.96
+"0.4"	15.34	17.2	15.42	16.5
+"0.5"	13.74	16.46	17.29	15.45
+
+Number of failures to settle
+"0"	0	0	0	0
+"0.1"	0	0	0	0
+"0.2"	0	0	0	0
+"0.3"	0	0	0	0
+"0.4"	0	0	0	0
+"0.5"	0	0	0	0
+
+PART 2B: Test Repetition-trained network with distorted training patterns
+
+Simulation report for 6 distortion probabilities (rows) of 3 training patterns (col) across 20 runs:
+Mean hamming distance
+"0"	0	0	7.6
+"0.1"	0.1	1.4	7.8
+"0.2"	0.1	3.7	7.8
+"0.3"	0.1	5	7.8
+"0.4"	3.7	5.8	8
+"0.5"	8.7	7.7	8
+
+Standard deviations of hamming distance
+"0"	0	0	0.82
+"0.1"	0.37	2.89	0.52
+"0.2"	0.49	3.81	0.37
+"0.3"	0.31	3.95	0.49
+"0.4"	6.02	3.44	0
+"0.5"	7.3	3.51	0.6
+
+Mean number of iterations to settle
+"0"	30	30	60
+"0.1"	37.3	41.8	65.2
+"0.2"	49.4	52.9	65.2
+"0.3"	55.2	55.4	61.7
+"0.4"	62.1	58.7	67
+"0.5"	55.7	63.9	65.8
+
+Standard deviations of number of iterations to settle
+"0"	0	0	12.36
+"0.1"	8.96	13.49	13.89
+"0.2"	16.06	16.87	13.25
+"0.3"	13.92	13.55	14.64
+"0.4"	12.12	11.63	19.01
+"0.5"	12.57	15.97	18.45
+
+Number of failures to settle
+"0"	0	0	0
+"0.1"	0	0	0
+"0.2"	0	0	0
+"0.3"	0	0	0
+"0.4"	0	0	0
+"0.5"	0	0	0
+
+PART 3Ba: Test Random-trained network with distorted test patterns
+
+Simulation report for 6 distortion probabilities (rows) of 3 training patterns (col) across 20 runs:
+Mean hamming distance
+"0"	1.4	0	1
+"0.1"	4.2	0	1.8
+"0.2"	4.1	0.8	2.4
+"0.3"	6.9	1	3.2
+"0.4"	7.1	2.6	5.3
+"0.5"	9.3	3.2	5.5
+
+Standard deviations of hamming distance
+"0"	0.89	0	0
+"0.1"	2.56	0	2.19
+"0.2"	3.57	2.13	2.66
+"0.3"	2.34	2.34	3.16
+"0.4"	2.1	3.56	3.42
+"0.5"	2.43	3.47	3.41
+
+Mean number of iterations to settle
+"0"	43.8	30	39.1
+"0.1"	60.7	42.8	52.2
+"0.2"	62	54.2	60.2
+"0.3"	60.1	60.8	57.4
+"0.4"	61.4	64.4	62.7
+"0.5"	65.5	71.5	72.2
+
+Standard deviations of number of iterations to settle
+"0"	11.81	0	6.92
+"0.1"	17.81	13.47	14.26
+"0.2"	22.72	21.5	16.49
+"0.3"	13.01	16.65	8.54
+"0.4"	10.73	14.16	14.65
+"0.5"	12.61	19.84	19.66
+
+Number of failures to settle
+"0"	0	0	0
+"0.1"	0	0	0
+"0.2"	0	0	0
+"0.3"	0	0	0
+"0.4"	0	0	0
+"0.5"	0	0	0
+
+PART 3Bb: Test network additionally trained on 1 random pattern(s) with distorted training patterns
+
+Simulation report for 1 distortion probabilities (rows) of 4 training patterns (col) across 20 runs:
+Mean hamming distance
+"0.2"	6	1.5	1.4	2.8
+
+Standard deviations of hamming distance
+"0.2"	2.46	2.78	1.88	3.04
+
+Mean number of iterations to settle
+"0.2"	65.5	58.9	49.7	56.9
+
+Standard deviations of number of iterations to settle
+"0.2"	19.21	18.79	15.01	14.96
+
+Number of failures to settle
+"0.2"	0	0	0	0
+
+PART 3Bb: Test network additionally trained on 2 random pattern(s) with distorted training patterns
+
+Simulation report for 1 distortion probabilities (rows) of 5 training patterns (col) across 20 runs:
+Mean hamming distance
+"0.2"	7	0.9	0.4	2.6	6.3
+
+Standard deviations of hamming distance
+"0.2"	1.32	2.44	1.35	2.89	1.66
+
+Mean number of iterations to settle
+"0.2"	71.4	54.9	57.2	55.3	76.8
+
+Standard deviations of number of iterations to settle
+"0.2"	17.07	19.45	15.33	16.84	18.06
+
+Number of failures to settle
+"0.2"	0	0	0	0	0
+
+PART 3Bb: Test network additionally trained on 3 random pattern(s) with distorted training patterns
+
+Simulation report for 1 distortion probabilities (rows) of 6 training patterns (col) across 20 runs:
+Mean hamming distance
+"0.2"	10.6	4	4.3	3.9	7.8	1.4
+
+Standard deviations of hamming distance
+"0.2"	1.54	0.39	2.6	0.49	0.52	1.14
+
+Mean number of iterations to settle
+"0.2"	82.4	65.2	66.8	63.4	84	52.2
+
+Standard deviations of number of iterations to settle
+"0.2"	18.99	16.85	18.66	15.29	22.46	14.63
+
+Number of failures to settle
+"0.2"	0	0	0	0	0	0
+
+PART 3Bb: Test network additionally trained on 4 random pattern(s) with distorted training patterns
+
+Simulation report for 1 distortion probabilities (rows) of 7 training patterns (col) across 20 runs:
+Mean hamming distance
+"0.2"	7.2	2.3	4.5	4.3	7.5	2.1	5.9
+
+Standard deviations of hamming distance
+"0.2"	2.08	1.66	3.58	1.3	1.19	2.31	2.59
+
+Mean number of iterations to settle
+"0.2"	69	65	65.5	68.3	72.5	54.1	73.1
+
+Standard deviations of number of iterations to settle
+"0.2"	15.07	25.97	22.71	17.37	17.29	21.79	20.92
+
+Number of failures to settle
+"0.2"	0	0	0	0	0	0	0
+
+PART 4B: Test network with base pattern
+
+Simulation report for base pattern across 20 runs:
+Mean hamming distance
+"1"	1
+
+Standard deviations of hamming distance
+"1"	0
+
+Mean number of iterations to settle
+"1"	42.1
+
+Standard deviations of number of iterations to settle
+"1"	9.86
+
+Number of failures to settle
+"1"	0
+
