@@ -3,4 +3,4 @@ Unpublished work [1] by Joshua Oon Soo Goh in fulfillment of Psych 591 Neural Ne
 
 **Bibliography**<br>
 1. Goh, J. O. S. (2007). Hopfield Network. *unpublished*. [pdf](https://gitlab.com/joshuagoh/hopfield-network/-/blob/main/manuscript/Hopfield%20Network%20-%20Josh%20Goh.pdf?ref_type=heads)
-2. Hopfield, J. J. (1982). Neural networks and physical systems with emergent collective computational abilities. Proceedings of the National Academy of Sciences USA, 79, 2554-2558.
+2. Hopfield, J. J. (1982). Neural networks and physical systems with emergent collective computational abilities. Proceedings of the National Academy of Sciences USA, *79*, 2554-2558.
