@@ -5,5 +5,5 @@ Unpublished work by Joshua Oon Soo Goh [\[1\]](#1) in fulfillment of Psych 591 N
 1. <a id="1">Goh, J. O. S. (2007). Hopfield Network. *Unpublished*. [\[pdf\]](https://gitlab.com/joshuagoh/hopfield-network/-/blob/main/manuscript/Hopfield%20Network%20-%20Josh%20Goh.pdf?ref_type=heads)
 2. <a id="2">Hopfield, J. J. (1982). Neural networks and physical systems with emergent collective computational abilities. Proceedings of the National Academy of Sciences USA, *79*, 2554-2558.
 
-**GIBMS 7015 Neural Networks Colab Instance**
+**[GIBMS 7015 Neural Networks Colab Instance](https://cool.ntu.edu.tw/courses/45064/pages/neural-networks)**
 - See [binary_autoencoder.ipynb](/code/binary_autoencoder.ipynb)
