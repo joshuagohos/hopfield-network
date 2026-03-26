@@ -6,6 +6,9 @@ Unpublished work by Joshua Oon Soo Goh [\[1\]](#1) in fulfillment of Psych 591 N
 2. [Implementation](https://youtu.be/bA3zLusHSfs?si=QLUsrhnjdBcK1lco)
 3. [Evaluation](https://youtu.be/J7YRHW07kg0?si=yjNpE5I6sDqTxVHy)
 
+**Conceptual Notes (PDF)**<br>
+1. [Blackboard](/docs/blackboard.pdf)
+
 **Bibliography & Notes**<br>
 1. <a id="1">Goh, J. O. S. (2007). Hopfield Network. *Unpublished*. [\[pdf\]](https://gitlab.com/joshuagoh/hopfield-network/-/blob/main/manuscript/Hopfield%20Network%20-%20Josh%20Goh.pdf?ref_type=heads)
 2. <a id="2">Hopfield, J. J. (1982). Neural networks and physical systems with emergent collective computational abilities. Proceedings of the National Academy of Sciences USA, *79*, 2554-2558.
